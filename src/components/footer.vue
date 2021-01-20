@@ -1,7 +1,7 @@
 <template>
   <div class="footer">
     <div class="inner-container footer__content">
-      <a class="footer__logo">
+      <a class="footer__logo" href="#">
         <img src="../assets/img/logo-museum-1.svg" alt="logo">
       </a>
 

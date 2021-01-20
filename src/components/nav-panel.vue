@@ -1,7 +1,7 @@
 <template>
   <div class="nav">
     <div class="inner-container nav__content">
-      <a class="nav__logo">
+      <a class="nav__logo" href="#">
         <img src="../assets/img/logo-museum-2.svg" alt="logo">
       </a>
 
