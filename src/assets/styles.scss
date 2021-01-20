@@ -1,0 +1,21 @@
+@import "./variables.scss";
+@import "./fonts";
+
+body, html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  font-family: $Merriweather, sans-serif;
+  background-color: white;
+  display: flex;
+  flex-flow: column;
+}
+
+.inner-container {
+  max-width: 1215px;
+  padding-left: 6px;
+  margin: 0 auto;
+}

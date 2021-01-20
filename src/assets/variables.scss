@@ -1,0 +1,25 @@
+$main-color: #5fb72b;
+$gray-light-color: #ECEAEA;
+$gray-lighter-color: #E1E1E1;
+$gray-color: #B5B5B5;
+$gray-text: #9F9F9F;
+$gray-text-price: #A0A0A0;
+$brown-color: #403432;
+$brown-text: #343030;
+$brown-text-link: #555555;
+$brown-text-link-hover: #55555580;
+$brown-text-hover: #34303080;
+$button-hover:  #776763;
+$button-checked: #5B3A32;
+$button-disabled: #C1B4B1;
+
+
+/** ANIMATION TIME **/
+$ANIMATE_TIME: .3s ease 0s, .3s ease 0s;
+
+
+@mixin transition($prop, $animate: $ANIMATE_TIME) {
+  transition: $prop $animate;
+  @content;
+}
+
